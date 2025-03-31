@@ -8,6 +8,18 @@ Fem flaggor finns gömda i applikationen. Varje flagga skickas in via ett formul
 
 ---
 
+## Docker
+
+```bash
+git clone https://github.com/ditt-användarnamn/http-advanced.git
+cd http-advanced
+```
+
+```bash
+docker build -t http-advanced .
+docker run -p 4000:4000 http-advanced
+```
+
 ## 🛠 Installation
 
 För att köra applikationen lokalt behöver du **Node.js** installerat.
